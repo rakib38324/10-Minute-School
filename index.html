@@ -294,10 +294,13 @@
                         developed by top universities and companies. All on Coursera for Business.</p>
                 </div>
 
+                    <!-- Button trigger modal -->
+
                 <div>
-                    <a href=""><button
-                            class="btn btn-primary mt-3 px-3 bg-white p-2 text-dark bg-opacity-75 text-info fw-bold"
-                            type="button">Register Now</button></a>
+                    <button type="button" class="btn btn-primary mt-3 px-3 bg-white p-2 text-dark bg-opacity-75 text-info fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
+
                 </div>
             </div>
 
@@ -547,8 +550,80 @@
         </section>
         <!-- End the Trusted by over 800+ companies section -->
 
+
+
+
+
+        <!-- Start Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your full name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Password</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Create your password">
+                            </div>
+
+                            <button type="button" class="btn btn-primary">Sign Up</button>
+                            
+                              
+                        </div>
+                        
+                    
+                    <div class="m-3 p-2 d-flex flex-column">
+
+                        <div class="btn d-flex bg-info p-2 text-dark bg-opacity-50 my-3 justify-content-around">
+                            <i class="fa-brands fa-google pt-1 pe-3 fs-4"></i>
+                            <h5 class="pt-1">Continue with Google</h5>
+                        </div>
+
+                        <div class="btn d-flex bg-info p-2 text-dark bg-opacity-50 my-3 justify-content-around">
+                            <i class="fa-brands fa-facebook pt-1 pe-3 fs-4"></i>
+                            <h5 class="pt-1">Continue with Facebook</h5>
+                        </div>
+                        
+                        <p>Already on Coursera? <a href="">Log in</a></p>
+
+                        <p><small>I accept Coursera's Terms of Use and Privacy Notice. Having trouble logging in? Learner help center
+
+                            This site is protected by reCAPTCHA Enterprise and the Google Privacy Policy and Terms of Service apply.</small></p>
+
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                        
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- End Modal -->
+
+
+
+
+
+
+
+
     </body>
     <!-- End the body section -->
+
+
 
 
     <!-- Start the Footer section -->
@@ -566,10 +641,11 @@
             <i class="fa-brands fa-linkedin pe-3"></i>
             <i class="fa-brands fa-instagram pe-3"></i>
             <i class="fa-brands fa-tiktok"></i>
-                
+
         </div>
 
-        <p class="text-center text-white"><small>2015 - 2022 Copyright © 10 Minute School. All rights reserved.</small></p>
+        <p class="text-center text-white"><small>2015 - 2022 Copyright © 10 Minute School. All rights reserved.</small>
+        </p>
 
     </footer>
 
